@@ -1,3 +1,5 @@
+package com.FadyJohn.Radarapp;
+
 public class SeatbeltRule implements Rule {
     @Override
     public Violation evaluate(Observation obs)

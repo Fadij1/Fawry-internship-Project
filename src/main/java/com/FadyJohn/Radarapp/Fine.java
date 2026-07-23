@@ -1,3 +1,5 @@
+package com.FadyJohn.Radarapp;
+
 import java.util.List;
 
 public class Fine {

@@ -1,3 +1,5 @@
+package com.FadyJohn.Radarapp;
+
 public class Observation {
     
     public String carNumber;
