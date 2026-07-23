@@ -20,7 +20,7 @@ public class Fine {
         System.out.println("Total amount: " + totalFineAmount + " EGP");
         System.out.print("Violations:");
         for (Violation v : violations) {
-            System.out.print(" - " + v.description + " : " + v.fineAmount + " EGP");
+            System.out.print(" - " + v.description + " : " + v.fineAmount + " EGP"+"\n           ");
         }
         System.out.println("\n");
     }

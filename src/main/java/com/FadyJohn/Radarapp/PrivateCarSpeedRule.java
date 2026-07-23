@@ -5,7 +5,7 @@ public class PrivateCarSpeedRule implements Rule {
     public Violation evaluate(Observation obs)
     {
         if (obs.carType == CarType.PRIVATE && obs.speed > 80) {
-            return new Violation("speed of "+ obs.speed+ " exceede max allowed 80", 300, "Private Car Speed Rule" );
+            return new Violation("speed of "+ obs.speed+ " exceed max allowed 80", 300, "Private Car Speed Rule" );
         }
         return null;
     }

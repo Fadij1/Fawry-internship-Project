@@ -5,7 +5,7 @@ public class TruckSpeedRule implements Rule {
     public Violation evaluate(Observation obs)
     {
         if (obs.carType == CarType.TRUCK && obs.speed > 60) {
-            return new Violation("speed of "+ obs.speed+ " exceede max allowed 60", 300, "Truck Speed Rule" );
+            return new Violation("speed of "+ obs.speed+ " exceed max allowed 60", 300, "Truck Speed Rule" );
         }
         return null;
     }
